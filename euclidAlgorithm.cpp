@@ -12,15 +12,15 @@ int main() {
 
 	const int K = 1998, N = 4174559;
 
-	GCD(K, N);
+	GCD(N, K);
 
 	system("pause");
 	return 0;
 }
 
-void GCD(int K, int N) {
-	int A = K;
-	int B = N;
+void GCD(int N, int K) {
+	int A = N;
+	int B = K;
 	int R = A % B;
 
 	do 
